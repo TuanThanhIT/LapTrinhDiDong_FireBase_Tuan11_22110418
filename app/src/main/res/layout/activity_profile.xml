@@ -42,6 +42,7 @@
             android:text="10"
             android:textSize="18sp" />
 
+
     </LinearLayout>
 
     <Button
@@ -56,5 +57,26 @@
         android:layout_height="wrap_content"
         android:text="Lưu ảnh đại diện"
         android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSelectVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chon video"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btnUploadVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload video"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại màn hình chính"
+        android:layout_marginTop="16dp" />
+
 
 </LinearLayout>
